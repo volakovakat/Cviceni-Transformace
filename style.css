@@ -53,7 +53,9 @@ h2 {
 }
 
 .houpacka__deti {
+	transition: transform 1s;
 	transform: rotate(-10deg);
+	transform-origin: center 75%;
 }
 
 .houpacka__deti:active {
