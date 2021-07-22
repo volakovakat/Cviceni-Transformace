@@ -47,4 +47,15 @@ h2 {
 }
 
 /* ------------- pod čáru přijdou tvé styly ------------- */
+.kocka:active {
+	transform: scaleY(0.9);
+	transform-origin: bottom;
+}
 
+.houpacka__deti {
+	transform: rotate(-10deg);
+}
+
+.houpacka__deti:active {
+	transform: rotate(10deg);
+}
